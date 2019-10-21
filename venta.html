@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/grid.css">
+  <link rel="stylesheet" href="CSS/animacion.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/mobile.css">
+<script type="text/javascript" href="Scripts/script.js">
+
+</script>
+
+  <title>ArtStore</title>
+</head>
+<body>
+  <!-- aqui empiza el navbar-->
+  <nav class="fadeInDown">
+    <div class="brand_imag">
+      <a href="index.html">
+      <img src="images/logo.png" alt="">
+      </a>
+    </div>
+
+    <div class="nav_options">
+      <ul>
+      <li><a href="#">Faqs</a></li>
+      <li><a href="producto.html">Producto y Descripcion</a></li>
+      </ul>
+    </div>
+  </nav>
+    <!-- aqui termina el navbar-->
+
+  <!-- Formulario de Venta-->
+<div class="container">
+    <!-- contenedores de pago-->
+  <div class="row">
+    <div class="col-4">
+      <div class="modulo_pago">
+      <div class="modulo_pago_images">
+
+
+      </div>
+      <h3>Producto 1</h3>
+      <p>Miles de productos en el mercado, pero nada como una pintura</p>
+      </div>
+    </div>
+
+<!-- Formulario-->
+    <div class="col-8">
+<div class="modulo_pago">
+  <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AUP36UXC6WUM2" method="post">
+<label for="nombre">Nombre:</label>
+<input type="text" name="user_name" id="nombre" class="data">
+
+<label for="correo">Email</label>
+<input type="text" name="email" id="correo" class="data">
+
+<label for="phone">Telefono</label>
+<input type="text" name="phone_user" id="phone" class="data">
+
+<input type="submit" class="main_button" name="submit" value="Enviar Datos">
+</form>
+</div>
+
+    </div>
+    </div>
+  </div>
+
+  <!-- Formulario de beneficios-->
+
+<footer>
+  <div class="foter">Terminos y condiciones</div>
+  <div class="contact"><a href="mailto:contacto@artstore.com">contacto@artstore.com</a></div>
+</footer>
+
+
+  <script src="Scripts/script.js"></script>
+</body>
+</html>

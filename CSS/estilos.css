@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/*------------------- Variables--------------------*/
+:root{
+--green-color:#7ACC2D;
+/*espaciado*/
+--space:10px;
+}
+/*------------------- Variables-------------------*/
+html,body{
+  padding: 0px;
+  margin: 0PX;
+  font-size: 12px;
+  font-family: Raleway, sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: gray;
+  text-decoration: none;
+}
+
+
+nav li a:hover{
+  color: white;
+
+}
+/*------------------- Main_seccion-------------------*/
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+/*------------------- Productos-------------------*/
+.products{
+  background-image: url("../images/curve.png");
+  padding: 20%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 50px;
+  background-size: cover;
+
+}
+
+.product{
+  padding: 10px;
+  margin-top: -240px;
+}
+
+.image-product{
+  text-align: center;
+}
+
+.product .content{
+  padding: 15px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+/*coonfigurar los botones*/
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: 12px;
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
+}
+
+/*------------------- productos2 o beneficios-------------------*/
+.products2{
+  background-color: white;
+  display: flex;
+  padding: 10%;
+
+}
+
+.product2{
+  text-align: center;
+  padding: 20px;
+}
+
+.product2 img{
+  max-height: 100px;
+}
+
+.product2 p{
+text-align: justify;
+}
+
+.content p{
+  text-shadow: 0 0 black;
+  text-align: left;
+}
+
+/*------------------- Menciones-------------------*/
+.menciones{
+  display: flex;
+  padding: 5%;
+}
+
+.img_menciones{
+  width: 100%;
+}
+
+.contenido{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.mencion{
+  padding: 10px;
+}
+
+.contenido h3{
+  text-align: center;
+}
+
+.contenido p{
+  text-align: center;
+  text-shadow: 0 0 black;
+  font-family: Kalam;
+  font-size: 14px;
+
+}
+
+/*------------------- Footer-------------------*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color:black;
+  padding: 10px;
+  color: white;
+}
+
+.contact a{
+  color: green;
+}
+/*-------------------Venta -------------------*/
+.modulo_pago{
+  background-color: white;
+box-shadow: 0px 0 2px 1px #e6e5e9;
+padding: 10px;
+
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+
+}
+label{
+  display:block;
+  margin-top: 10px;
+  font-size: 14px;
+font-family: Raleway;
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  margin-top: 10px;
+}

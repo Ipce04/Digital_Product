@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+/*cuando llegue a 600, organizara de forma horizontal todos los elementos de la pagina*/
+.products{
+  display: inherit;
+  height: auto;
+}
+
+.product{
+  margin-top: auto;
+}
+
+.main_section{
+  padding: 4%;
+}
+
+/*cuando se aplica la misma regla a dos clases se puede hacer de esta forma*/
+.products2, .menciones {
+  display: inherit;
+}
+
+}
